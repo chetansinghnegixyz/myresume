@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.1);
+
+}
+.container .left{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile .imgBx{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.profile h2{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.profile h2 span{
+    font-size: 18px;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 30px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: blue;
+}
+.contactInfo ul li span{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.contactInfoeducation ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.contactInfoeducation h5{
+    color: blue;
+    font-weight: 500;
+}
+.contactInfoeducation h4{
+    color: white;
+    font-weight: 500;
+}
+.contactInfoeducation h4{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.contactInfolanguage ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.contactInfolanguage .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfolanguage .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: blue;
+}
+.container .right{
+    position: relative;
+    background: white;
+} 
+.title2{
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.aboutskills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.aboutskills .box h4{
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.aboutskills .box .percent{
+    position: relative;
+    width: 80%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.aboutskills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: blue;
+}
+.aboutexperience h4{
+    margin-left: 55px;
+    font-size: 20px;
+    color: #666;
+    font-weight: 500;
+}
+.aboutachievements h4{
+    margin-left: 55px;
+    font-size: 20px;
+    color: #666;
+    font-weight: 500;
+}
+.aboutobjective p{
+    margin-left: 55px;
+    font-size: 17px;
+    color: #666;
+    font-weight: 500;
+}
+.aboutinterest ul li{
+    color: #666;
+    font-weight: 500;
+    margin-left: 55px;
+}
